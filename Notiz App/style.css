@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font: Oswald;
+    font-family: 'Oswald', sans-serif;
+    font-size: 100%;}
+
+[href]{
+    background:rgb(248, 246, 246);
+    color: rgb(8, 15, 15);}
+
+#zumAnfang {
+    color: rgba(238, 255, 0, 0.61);
+    position: relative;
+    display: right;} 
+
+div{
+    position: static;
+    border: 3px solid rgb(86, 129, 104);
+    padding-left: 7px;
+    padding-right: 7px;
+    background-image: radial-gradient(
+       circle closest-side at center,
+       rgb(255, 255, 255),
+       lightskyblue,
+       rgb(9, 17, 32));} 
+
+li:first-child{
+    color: rgb(0, 0, 0);}
+
+li:last-child{
+    color: rgb(2, 2, 2);}
+
+li:nth-child(3){
+    color: rgb(0, 0, 0);}
+
+li:nth-of-type(1n){
+    background: rgb(255, 255, 255);
+    padding: 3px;}
+
+nav li:hover{
+    color: rgb(255, 250, 225);
+    font-size: 1.2em;
+    padding: 7px;
+    transition: background-color 1s, padding 1s ease;}
+
+div li::first-letter {
+    color: white;
+    background-color: rgb(201, 201, 201);
+    border-radius: 2px;
+    box-shadow: 2px 2px 0 rgb(0, 0, 0);
+    font-size: 100%;
+    padding: 3px 1px;
+    margin-right: 6px;
+    float: left;}
+
+li::marker{
+       content: "°";}
+       @keyframes pulse {
+        20% {
+            padding: 25px;
+            background-color: rgb(218, 221, 220);}
+    }
+   
+   
+    a{
+        font: 15px Courier;
+        text-decoration: whitesmoke;
+        color: rgb(31, 23, 23);
+        padding: 0px 7px 0 px 7px;
+        border-right: 2px solid lightskyblue;}
+   
+    p {
+        border: 1px solid grey;
+        width: 1300px;
+        background-color: grey;
+        padding: 1px;}
+   
+    @media screen and (max-width: 64em) {
+        body{ font-size: 90%;}
+    }
+   
+    @media screen and (max-width: 50em) {
+        body{ font-size: 70%;}
+    }
+   
+    @media screen and (max-width: 30em) {
+        body{ font-size: 55%;}
+    }
+   
+    h1{
+        position: relative;
+        left: 3%;
+        right: 3%;
+        top: 1vh;
+        height: 50px;
+        background: rgb(239, 243, 8);
+        color: white;
+        padding: 60px;
+        width: 1350px;}
+   
+    h2{
+        margin-bottom: 35px;
+        background: rgb(255, 247, 4);
+        padding: 18px;}
+   
+    h4{
+        color: rgb(251, 235, 7);
+        border: 2px;
+        padding-left: 0px;
+        margin: 7px;}
+   
+        .Startseite{
+           height: 30 px;
+           background: lightskyblue;
+           padding-top: 7px solid;
+           padding-left: 5px;
+           margin-top: 20px;
+           box-shadow: 4px 7px rgb(202, 201, 201);
+           overflow: hidden;}
+   
+        .Anwesenheitsliste{
+           height: 30 px;
+           background: lightskyblue;
+           padding-top: 7px solid;
+           padding-left: 5px;
+           margin-top: 20px;
+           box-shadow: 4px 6px rgb(180, 180, 180);
+           overflow: hidden;}
+   
+    
